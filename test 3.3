@@ -1,0 +1,15 @@
+score = input("Enter Score:")
+try:
+  s = float(score)
+except:
+  print("Please enter a number")
+if s >= 0.90:
+  print("A")
+elif s >= 0.80:
+  print("B")
+elif s >= 0.70:
+  print("C")
+elif s >= 0.60:
+  print("D")
+elif s < 0.60:
+  print("F")
